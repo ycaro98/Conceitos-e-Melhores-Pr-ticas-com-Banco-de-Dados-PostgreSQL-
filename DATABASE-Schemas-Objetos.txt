@@ -1,0 +1,5 @@
+Database: É o banco de Dados. Grupo de schemas e seus objetos, como tabelas, types, views, funções, entre outros. Seus schemas e objetos não podem ser compartilhados entre si. Cada database é separado u do outro compartilhando apenas usuários/roles e configurações do cluster PostgreSQL.
+
+Schemas: É um grupo de objetos, como tabelas, types, views, funções, entre outros. É possível relacionar objetos entre diversos chemas. Por exemplo: schema public e schema curso podem ter tabelas com o mesmo nome (teste por edxemplo) relacionado-se entre si.
+
+Objetos: São as tabelas, views, funções, types, sequences, entre outros, pertencentes aos schemas.

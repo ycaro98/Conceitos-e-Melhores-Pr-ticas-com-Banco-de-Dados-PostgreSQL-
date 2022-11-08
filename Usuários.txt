@@ -1,0 +1,16 @@
+Conceitos users/roles/groups: Roles(papéis ou funções), users(usuários) e grupo de usuários são "contas", perfis de atuação em um banco de dados, que possuem permissões em comum ou específicas. É possível que roles pertençam a outros roles.
+
+Associação entre roles: Quando uma role assume as permissões de outra role. Necessário a opção INHERIT.
+No momento de criação da role:
+-IN ROLE(Passa a pertencer a role informada)
+-ROLE(A role informada passa a pertencer a nova role)
+
+Ou após a criação da role:
+-GRANT [role a ser concedida] TO[role a assumir permissões]
+
+Desassociar membros entre roles:
+REVOKE[role que será revogada] FROM [role que terá suas permissões revogadas]
+REVOKE professores FROM daniel
+
+Excluindo uma role:
+DROP ROLE role_specification;

@@ -1,0 +1,49 @@
+Definição: São os privilégios de acesso aos objetos do banco de dados.
+
+Privilégios: 
+--tabela				--function
+--coluna				--language
+--sequence				--large object
+--database				--schema
+--domain				--tablespace
+--foreign data wrapper			--type
+--foreign server
+
+DATABASE:
+GRANT {{ CREATE|CONNECT|TEMPORARY|TEMP}[,...]|ALL[PRIVILEGES]}
+	ON DATABASE database_name[,...]
+	TO role_specification [,...][WITH GRANT OPTION]
+
+SCHEMA:
+GRANT {{ CREATE|USAGE}[,...]|ALL[PRIVILEGES]}
+	ON SCHEMA schema_name[,...]
+	TO role_specification [,...][WITH GRANT OPTION]
+
+GRANT {{ SELECT|INSERT|UPDATE|DELETE|TRUNCATE|REFERENCES|TRIGGER}[,...]|ALL[PRIVILEGES]}
+	ON {[TABLE]table_name[,...]
+		|ALL TABLES IN SCHEMA schema_name[,...]}
+	TO role_specification [,...][WITH GRANT OPTION]
+
+
+REVOKE: retira as permissões da role
+
+DATABASE:
+REVOKE[GRANT OPTION FOR]
+	{{ CREATE|CONNECT|TEMPORARY|TEMP}[,...]|ALL[PRIVILEGES]}
+	ON DATABASE database_name[,...]
+	FROM{[GROUP]role_name|PUBLIC}[,...]
+	[CASCADE|RESTRICT]
+
+SCHEMA:
+REVOKE[GRANT OPTION FOR]
+	{{CREATE|USAGE}[,...]|ALL[PRIVILEGES]}
+	ON SCHEMA schema_name[,...]
+	FROM{[GROUP]role_name|PUBLIC}[,...]
+	[CASCADE|RESTRICT]
+
+REVOGANDO TODAS AS PERMISSÕES (SIMPLIFICADO):
+
+REVOKE ALL ON ALL TABLES IN SCHEMA [schema] FROM [role];
+REVOKE ALL ON SCHEMA [schema] FROM [role];
+REVOKE ALL ON DATABASE [database] FROM [role];
+

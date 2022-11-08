@@ -1,0 +1,22 @@
+Definição: Modelo mais comum, que classifica e organiza as informações em tabelas com linhas e colunas. As linas, ou tuplas, são os dados organizados, são os valores das tabelas, e as colunas são os atributos destes dados.
+
+Tabelas: Conjuntos de dados dispostos em colunas e linhas referentes a um objetivo comum. 
+	As colunas são consideradas como "campos da tabela", como atributos da tabela.
+	As linhas de uma tabela são chamadas também de tuplas, e é onde estão contidos os valores, os dados.
+
+O que pode ser definido como tabela?
+	-Coisas tangíveis:
+		*Elementos físicos (carro, produto, animal)
+	-Funções:
+		*Perfis de usuáris, status de compra
+	-Eventos ou ocorrências:
+		*Produtos de um pedido, histórico de dados
+
+Colunas importantes em tabelas:
+	-Chave Primária/ primary Key/ Pk
+		*Conjunto de um ou mais campos que nunca se repetem. Identidade da tabela. São utilizados como índice de referência na criação de relacionamentos entre tabelas.
+	-Chave Estrangeira/ Foreign Key/ Fk
+		*Valor de referência a uma Pk de outra tabela ou da mesma tabela para criar um relacionamento.
+	
+
+Sistemas de gerencimento de Banco de Dados(SGBD): Conjunto de programas ou softwares responsáveis pelo gerenciamento de um banco de dados. Programas que facilitam a administração de um banco de dados.

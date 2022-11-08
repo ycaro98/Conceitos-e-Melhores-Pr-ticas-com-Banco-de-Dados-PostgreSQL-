@@ -1,0 +1,10 @@
+O que é o PostgreSQL? é um SGBD relacional que teve início no Departamento de Ciência da Computação na Universidade da Califórnia em Berkeley em 1986. É um SGBD Opensource.
+
+Principais Características:
+*OpenSource
+*Point in time recovery
+*Linguagem procedural com suporte a várias linguagens de programação (perl, python, etc)
+*Views, functions, procedures, triggers
+*Consultas complexas e Common table expressions(CTE)
+*Suporte a dados geográficos (POSTGIS)
+*Controle de concorrência multi-versão

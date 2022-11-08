@@ -1,0 +1,15 @@
+DML - DATA MANIPULATION LANGUAGE
+Linguagem de manipulação de dados
+INSERT, UPDATE, DELECT, SELECT
+-O select, alguns consideram como DL, outros como DQL, que significa data query language, ou linguagem de consulta de dados
+
+DDL - Data Definition Language
+Linguagem de definição de dados
+CREATE, ALTER, DROP
+
+Create/ Alter/ Drop
+
+CREATE [objeto] [nome do objeto] [opções];
+ALTER [objeto] [nome do objeto] [opções];
+DROP [objeto] [nome do objeto] [opções]; 
+

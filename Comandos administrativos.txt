@@ -1,0 +1,13 @@
+Binários do PostgreSQL:
+-createdb
+-createuser
+-dropdb
+-dropuser
+-initdb
+-pg_ctl
+-pg_basebackup
+-pg_dump/ pg_dumpall
+-pg_restore
+-psql
+-reindexdb
+-vacuumdba\W

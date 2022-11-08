@@ -1,0 +1,14 @@
+Definição: é o arquivo responsável pelo controle de autenticação dos usuáriios no servidor PostgreSQL. 
+
+Métodos de autenticação:
+-TRUST (conexão sem requisição de senha)
+-REJECT: rejeitar conexões
+-MD5: criptografia md5
+-PASSWORD: senha sem criptografia
+-GSS: generic security service application program interface
+-SSPI: Security support provider interface - somente para windows
+- KRB5 : Kerberos V5
+-IDENT: utiliza o usuário do sistema operacional do cliente via ident server
+-PEER: utiliza o usuário do sistema operacional do cliente
+...
+
