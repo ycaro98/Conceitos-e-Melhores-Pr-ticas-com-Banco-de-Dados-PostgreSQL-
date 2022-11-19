@@ -1,0 +1,2 @@
+Definindo: View são visões. São "camadas" para as tabelas. São "alias" para uma ou mais queries. Aceitam comandos de SELECT, INSERT, UPDATE e DELETE. 
+

@@ -1,0 +1,8 @@
+Definindo:
+	Conjunto de códigos que são executados dentro de uma transação com a finalidade de facilitar a programação e obter o reaproveitamento/reutilização de códigos.
+	Existem 4 tipos de funções:
+- query language functions (funções escritas em SQL)
+- procedural language functions (funções escritas em, por exemplo, PL/pgSQL ou PL/py)
+- Internal funcions
+- C-language functions
+- USER DEFINED FUNCTIONS

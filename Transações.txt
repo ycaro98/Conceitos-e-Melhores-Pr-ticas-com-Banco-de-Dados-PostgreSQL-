@@ -1,0 +1,1 @@
+Definindo: Conceito fundamental de todos os sistemas de bancos de dados. Conceito de múltiplas etapas/códigos reunidos em apenas 1 transação, onde o resultado precisa ser tudo ou nada.
